@@ -1,6 +1,6 @@
 public class inventario {
     public static int resta(int minuendo, int sustraendo) {
-        return minuendo - sustraendo;
+        return minuendo + sustraendo;
     }
 
     public static void main(String[] args) {
