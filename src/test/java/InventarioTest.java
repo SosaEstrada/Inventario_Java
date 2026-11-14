@@ -3,9 +3,15 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class InventarioTest {
     @Test
-    void calcularSubtotalDeCuatroProductos() {
-        int resultado = inventario.calcularSubtotal(50, 4);
-        assertEquals(200, resultado);
+    void restaLosValoresAsignados() {
+        assertEquals(44, inventario.resta(73, 29));
+        
+
+    }
+
+    @Test
+    void restaDosValoresIguales(){
+        assertEquals(0, inventario.resta(12, 12));
     }
     
 }

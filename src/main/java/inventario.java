@@ -1,11 +1,12 @@
 public class inventario {
-    public static int calcularSubtotal(int precio, int cantidad) {
-        return precio + cantidad;
+    public static int resta(int minuendo, int sustraendo) {
+        return minuendo - sustraendo;
     }
+
     public static void main(String[] args) {
-        int precio = 50;
-        int cantidad = 4;
-        int valorTotal = calcularSubtotal(precio, cantidad);
-        System.out.println("Subtotal: " + valorTotal);
+        int minuendo = 73;
+        int sustraendo = 29;
+        int resultado = resta(minuendo, sustraendo);
+        System.out.println(minuendo + " - " + sustraendo + " = " + resultado);
     }
 }
